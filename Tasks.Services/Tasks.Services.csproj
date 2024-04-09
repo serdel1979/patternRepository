@@ -12,4 +12,8 @@
     <ProjectReference Include="..\Tasks.Model\Tasks.Model.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <Folder Include="Worker\" />
+  </ItemGroup>
+
 </Project>
