@@ -17,8 +17,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Mapping\Mapping.csproj" />
+    <ProjectReference Include="..\Repository\Repository.csproj" />
     <ProjectReference Include="..\Tasks.DTO\Tasks.DTO.csproj" />
     <ProjectReference Include="..\Tasks.Model\Tasks.Model.csproj" />
+    <ProjectReference Include="..\Tasks.Services\Tasks.Services.csproj" />
   </ItemGroup>
 
 </Project>
