@@ -16,6 +16,8 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Mapping\Mapping.csproj" />
+    <ProjectReference Include="..\Tasks.DTO\Tasks.DTO.csproj" />
     <ProjectReference Include="..\Tasks.Model\Tasks.Model.csproj" />
   </ItemGroup>
 
