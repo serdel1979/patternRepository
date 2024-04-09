@@ -12,7 +12,7 @@ namespace Tasks.Services.Job
     {
 
         Task<IQueryable> GetJobs(int Page=1, int Size = 5);
-        Task GetById(int Id);
+        Task<JobDTO> GetById(int Id);
         Task Create(JobDTO job);
         Task Update(int Id, JobDTO job);
         Task Delete(int Id);
